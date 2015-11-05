@@ -1,0 +1,130 @@
+html{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+    background-color: #d0e4fe;
+}
+
+header {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+nav{
+	background-color: #d0e4fe;
+	color: white;
+	text-align: right;
+	
+
+}
+a{
+	color: #4a4a4a;
+	font-weight: bolder;
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+header a{
+	width: 50px;
+	left: 80%;
+	display: inline-block;
+	vertical-align: top;
+	position: fixed;
+	z-index: 0;
+	
+
+}
+
+section{
+	width: 80%;
+	min-height: 500px;
+	padding: 2%;
+	margin:0 auto;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+fieldset{
+	border:none;
+}
+nav {
+  width  : 15%;
+  position: absolute;
+  z-index: 3;
+  left: 75%;
+  top: 20%;
+}
+#logo{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: top;
+	position:absolute;
+	z-index: 2;
+	left: 5%;
+	-webkit-box-shadow: 0px 0px 10px rgba(74, 74, 74, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(74, 74, 74, 0.75);
+	box-shadow:         0px 0px 10px rgba(74, 74, 74, 0.75);
+}
+#Inicio{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: top;
+	position:absolute;
+	z-index: 2;
+	left: 5%;
+	-webkit-box-shadow: 0px 0px 10px rgba(74, 74, 74, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(74, 74, 74, 0.75);
+	box-shadow:         0px 0px 10px rgba(74, 74, 74, 0.75);
+}
+.producto{
+display: none;
+ position: static;
+ bottom: 0;
+ z-index: 10;
+ background: rgba(0, 0, 0, 0.5);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+ width: 300px;
+ color: #FFF;
+ padding: 10px;
+	
+	-webkit-box-shadow: 0px 0px 10px rgba(240, 240, 240, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(240, 240, 240, 0.75);
+	box-shadow:         0px 0px 10px rgba(240, 240, 240, 0.75);
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+.producto:hover{
+
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+
+
+
+li {
+  list-style-type : none;
+  float   : left;
+  cursor  : pointer;
+  padding : 3px 10px;
+
+
+}
+
+li:hover .producto {
+display: block;
+border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 10px rgba(74, 74, 74, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(74, 74, 74, 0.75);
+	box-shadow:         0px 0px 10px rgba(74, 74, 74, 0.75);
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+
+
+}

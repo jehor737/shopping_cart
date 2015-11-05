@@ -1,0 +1,21 @@
+<?php
+session_start();
+	$arri=$_SESSION['IDUsuario'];
+	for($i=0;$i<count($arri);$i++){
+		if($arri[$i]['Id']!=$_POST['Id']){
+			$datosNuevos[]=array(
+				'Id'=>$arri[$i]['Id'],
+				'Nombre'=>$arri[$i]['Nombre'],
+				'Precio'=>$arri[$i]['Precio'],
+				'Imagen'=>$arri[$i]['Imagen'],
+				'Cantidad'=>$arri[$i]['Cantidad']
+				);
+		}
+	}
+	if(isset($datosNuevos)){
+		$_SESSION['IDUsuario']=$datosNuevos;
+	}else{
+		unset($_SESSION['IDUsuario']);
+		echo '0';
+	}
+?>
