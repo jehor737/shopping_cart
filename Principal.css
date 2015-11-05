@@ -4,7 +4,9 @@ html{
 }
 
 body {
-    background-color: #d0e4fe;
+    background-color: paleturquoise;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 header {
@@ -17,7 +19,7 @@ p {
     font-size: 20px;
 }
 nav{
-	background-color: #d0e4fe;
+	background-color: paleturquoise;
 	color: white;
 	text-align: right;
 	
@@ -25,6 +27,13 @@ nav{
 }
 a{
 	color: #4a4a4a;
+	font-weight: bolder;
+	font-size: 1.2rem;
+	text-decoration: none;
+}
+
+#comprar{
+	color: #FFFFFF;
 	font-weight: bolder;
 	font-size: 1.2rem;
 	text-decoration: none;
@@ -90,7 +99,7 @@ display: none;
  background: rgba(0, 0, 0, 0.5);
  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
  width: 300px;
- color: #FFF;
+ color: #FFFFFF;
  padding: 10px;
 	
 	-webkit-box-shadow: 0px 0px 10px rgba(240, 240, 240, 0.75);
@@ -107,10 +116,9 @@ display: none;
 
 
 
-
 li {
   list-style-type : none;
-  float   : left;
+  float   : center;
   cursor  : pointer;
   padding : 3px 10px;
 
@@ -120,11 +128,18 @@ li {
 li:hover .producto {
 display: block;
 border-radius: 50%;
-	-webkit-box-shadow: 0px 0px 10px rgba(74, 74, 74, 0.75);
-	-moz-box-shadow:    0px 0px 10px rgba(74, 74, 74, 0.75);
-	box-shadow:         0px 0px 10px rgba(74, 74, 74, 0.75);
+	-webkit-box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow:    0px 0px 10px rgba(255, 255, 255, 0.5);
+	box-shadow:         0px 0px 10px rgba(255, 255, 255, 0.5);
 	-webkit-transition: all 1s ease-in-out;
 	-moz-transition: all 1s ease-in-out;
 
 
+}
+
+.index{
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	z-index: 50;
 }

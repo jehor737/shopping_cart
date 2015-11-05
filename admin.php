@@ -13,7 +13,7 @@
 <body>
 	<header>
 		<img src="./images/logo.jpg" id="logo">
-		<a href="./compras.php" title="ver carrito de compras">
+		<a href="./compras.php" title="Ver carrito de compras">
 			<img src="./images/carrito.png">
 		</a>
 	</header>

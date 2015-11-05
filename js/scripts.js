@@ -32,7 +32,7 @@ $(".eliminar").click(function(e){
 	});
 	$("#formulario").submit(function(evento){
 		$.get('./compras/comprar.php',function(evento){
-			alert("");
+			alert("Gracias por realizar esta compra");
 		}).fail(function (){
 			evento.preventDefault();	
 		});
